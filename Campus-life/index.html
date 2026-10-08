@@ -1,84 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Isometra&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header id="Headernav">
-     <nav id="Navbar">
-        <ul>
-            <img src="./assets/youcode_logo_dark.png" alt="Logo youcode">
-            <li>Accueil</li>
-            <li>Campus</li>
-            <li>Clubs & activités</li>
-            <li>Événements</li>
-            <li>Conseils aux nouveaux</li>
-            <li>Contact</li>
-            <li>Inscription</li>
-        </ul>
-        <button>Rejoindre l’aventure</button>
-     </nav>
+    <header>
+        <a href="./index.html"><img class="logo" src="./assets/youcode_logo_dark.png" alt="Logo"></a>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./campus.html">Campus</a></li>
+                <li><a href="./clubs.html">Clubs & activités</a></li>
+                <li><a href="./events.html">Événements</a></li>
+                <li><a href="./advice.html">Conseils aux nouveaux</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn-join">Rejoindre <br> l’aventure </a>
     </header>
-    <section id="img_block">
-        <img src="./assets/5e478cdfb2598301883ad6cc78cef2d10b1388c6.jpg" alt="">
-        <div id="Rightblock">
-            <h1 style="font-size: 65px;">CAMPUS <br> <PP style="color: #034BFF;">LIFE     <l style="color: #C7F64A;margin-left: 40px;">≈</l></PP></h1>
-            <h2>Vie étudiante à YouCode</h2>
-            <p>Découvre un environnement d’apprentissage unique,
-des rencontres inspirantes et une communauté qui code
-le futur avec toi.</p>
-
-            <button id="button_block_1">Découvrir le campus →</button>
-            <button id="button_block_2">▦  Voir les événements</button>
-            
-            <section id="profils_section">
-                <div id="Circular_profils" style="background-color: #B8C9CF;">A</div>
-                <div id="Circular_profils" style="background-color: #D7C3B6;">S</div>
-                <div id="Circular_profils" style="background-color: #B8C9CF;">Y</div>
-                <div id="Circular_profils" style="background-color: #D7C3B6;">M</div>
-                <span id = "profils_span">Une communauté<br> de +1000 apprenants</span>
+    <section class="middle_section">
+        <div class="campus-content">
+            <h1>CAMPUS</h1>
+            <div style="display: flex; align-items: center;">
+                <h1 style="margin-top: -35px;color: #034BFF;">LIFE</h1>
+                <h1 style="margin-left: 100px;margin-top: -45px;color: #C7F64A;">≈</h1>
+            </div>
+            <h1 style="font-size: 35px; margin-top: -20px;">Vie étudiante à YouCode</h1>
+            <p>Découvre un environnement d’apprentissage unique,des rencontres inspirantes et une communauté qui code le
+                futur avec toi.</p>
+            <section class="button-campus">
+                <a href="" style="background-color: #034BFF;border: 1px solid #034BFF;">Découvrir le campus →</a>
+                <a href="">▦ Voir les événements</a>
             </section>
+
+            <div class="profils-container">
+                <p style="background-color: #B8C9CF;">A</p>
+                <p style="background-color: #D7C3B6;">S</p>
+                <p style="background-color: #B8C9CF;">Y</p>
+                <p style="background-color: #D7C3B6;">U</p>
+                <div class="profils-stats">
+                    <span>Une communauté <br> de +1000 apprenants</span>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/5e478cdfb2598301883ad6cc78cef2d10b1388c6.jpg" class="campus-image" alt="Campus life">
+    </section>
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat">
+                <div class="stat-icon">
+                    <h1>◇</h1>
+                </div>
+                <div class="text-stats">
+                    <h2>+1000</h2>
+                    <p>Apprenants</p>
+                </div>
+                <span
+                    style="justify-content: center;align-items: center;display: flex;margin-left: 100px;color: #47526A;">|</span>
+            </div>
+            <div class="stat">
+                <div class="stat-icon">
+                    <h1>◇</h1>
+                </div>
+                <div class="text-stats">
+                    <h2>+20</h2>
+                    <p>Clubs & activités</p>
+                </div>
+                <span
+                    style="justify-content: center;align-items: center;display: flex;margin-left: 100px;color: #47526A;">|</span>
+
+            </div>
+            <div class="stat">
+                <div class="stat-icon">
+                    <h1>◇</h1>
+                </div>
+                <div class="text-stats">
+                    <h2>+50</h2>
+                    <p>Événements par an</p>
+                </div>
+                <span
+                    style="justify-content: center;align-items: center;display: flex;margin-left: 100px;color: #47526A;">|</span>
+
+            </div>
+            <div class="stat">
+                <div class="stat-icon">
+                    <h1>◇</h1>
+                </div>
+                <div class="text-stats">
+                    <h2>90%</h2>
+                    <p>Insertion professionnelle</p>
+                </div>
+            </div>
         </div>
     </section>
+    <section class="clubs-activities">
+        <div class="campus-explorer">
+            <h2>UN CAMPUS PENSÉ POUR TOI</h2>
+            <h1>Un environnement</h1>
+            <h1 style="margin-top: -30px;">qui te fait grandir</h1>
+            <p>Des espaces modernes, une pédagogie par projets,une communauté engagée et des opportunités réelles pour
+                développer tes compétences.</p>
+            <a href="" class="btn-join" style="margin-left: 0; width: 169px; font-size:12px;">Explorer le campus →</a>
+        </div>
+        <div class="campus-galery">
 
-    <section id="stats">
-        <div id="stats_blocks">
-            <h2>◇</h2>
-            <h3>+1000</h3>
-            <span>Apprenants</span>
-        </div>
-        <div id="stats_blocks">
-            <h2>♧</h2>
-            <h3>+20</h3>
-            <span>Clubs </span>
-
-        </div>
-        <div id="stats_blocks">
-            <h2>▦</h2>
-            <h3>+50</h3>
-            <span>Événements par an</span>
-        </div>
-        <div id="stats_blocks">
-            <h2>▦</h2>
-            <h3>90%</h3>
-            <span>Insertion professionnelle</span>
+            <img src="./assets/bd5c78f0b0664c1204db4e164d79fe65be6ed1d2.jpg" style="transform: rotate(-10deg);"
+                alt="Campus life">
+            <img src="./assets/d06b6202139b1335087069e88427f166922d4e25.jpg"
+                style="transform: rotate(7deg);margin-top: 100px;" alt="Campus life">
+            <img src="./assets/503bd2fc34ba9e6c2afd23f845e8220012ca0e5b.jpg" alt="Campus life">
         </div>
     </section>
-    <section id="Campus">
+    <section class="journay">
+        <div>
+            <h2 class="journay-title">Your YouCode Journey</h2>
+            <h3 class="sub-journay-title">De tes premiers pas à ton premier projet… et bien plus !</h3>
+        </div>
 
-            <div id="Block1" style="margin-left: 1080px;margin-top: 30px; rotate: 20deg;"></div>
-            <img src="./assets/d06b6202139b1335087069e88427f166922d4e25.jpg" style="position: absolute; margin-left: -440px;margin-top: 110px;rotate: 7deg" id="Imgclass">
-            <img src="./assets/503bd2fc34ba9e6c2afd23f845e8220012ca0e5b.jpg" style="position: absolute; margin-left: -240px;margin-top: 50px;rotate: 5deg;border: 5px solid white;" id="Imgclass">
-            <div id="Block1" style="position: absolute; margin-left: 740px;margin-top: 130px; rotate: -8deg;"></div>
-            <img src="./assets/bd5c78f0b0664c1204db4e164d79fe65be6ed1d2.jpg" style="position: absolute; margin-left: -670px;margin-top: 40px;rotate: -5deg" id="Imgclass">
-        
+        <div class="steps">
+
+
+            <div class="journay_steps">
+                <h3 class="step-title">01</h3>
+                <div class="round-step-icon">
+                    <span class="step-icon">♙</span>
+                </div>
+                <h2>Day 1</h2>
+                <h3>Découverte <br>du campus</h3>
+            </div>
+
+            <div class="separator">
+                <span>. . . . . . . . . . . . . . . .</span>
+            </div>
+
+            <div class="journay_steps">
+                <h3 class="step-title">02</h3>
+                <div class="round-step-icon">
+                    <span class="step-icon">♙</span>
+                </div>
+                <h2>First Commit</h2>
+                <h3>Découverte <br>du campus</h3>
+            </div>
+
+            <div class="separator">
+                <span>. . . . . . . . . . . . . . . .</span>
+            </div>
+
+            <div class="journay_steps">
+                <h3 class="step-title">03</h3>
+                <div class="round-step-icon" style="background-color: #04B886;">
+                    <span class="step-icon">♧</span>
+                </div>
+                <h2>Day 1</h2>
+                <h3>Découverte <br>du campus</h3>
+            </div>
+            
+            <div class="separator">
+                <span>. . . . . . . . . . . . . . . .</span>
+            </div>
+
+            <div class="journay_steps">
+                <h3 class="step-title">04</h3>
+                <div class="round-step-icon" style="background-color: #6744FF;">
+                    <span class="step-icon">ϟ</span>
+                </div>
+                <h2>Day 1</h2>
+                <h3>Découverte <br>du campus</h3>
+            </div>
+            <div class="separator">
+                <span>. . . . . . . . . . . . . . . .</span>
+            </div>
+            
+            <div class="journay_steps">
+                <h3 class="step-title">05</h3>
+                <div class="round-step-icon" style="background-color: #034BFF;">
+                    <span class="step-icon">▱</span>
+                </div>
+                <h2>Day 1</h2>
+                <h3>Découverte <br>du campus</h3>
+            </div>
+
+            <div class="separator">
+                <span>. . . . . . . . . . . . . . . .</span>
+            </div>
+
+            <div class="journay_steps">
+                <h3 class="step-title">06</h3>
+                <div class="round-step-icon" style="background-color: #C7F64A;">
+                    <span class="step-icon">♜</span>
+                </div>
+                <h2>Day 1</h2>
+                <h3>Découverte <br>du campus</h3>
+            </div>
+
+        </div>
 
     </section>
 </body>
+
+</html>
+</body>
+
 </html>
