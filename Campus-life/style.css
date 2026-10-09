@@ -172,6 +172,7 @@ ul {
     justify-content: around;
 }
 .journay {
+    
     background-color: #08111D;
 }
 .journay-title {
@@ -230,4 +231,115 @@ ul {
 .separator span {
     color: white;
     margin-left: 0px;
+}
+.next-event *{
+    margin-left: 63px;
+    color: white;
+}
+.date-parts {
+    display: flex;
+    margin-top: 20px;
+}
+.next-event{
+    background-color: #034BFF;
+    border-radius: 7px;
+    width: 430px;
+    height: 300px;
+    margin-left: 20px;
+}
+.next-event h2 {
+    font-size: 32px;
+    font-weight: 1000;
+    margin-top: -10px;
+}
+.next-event p {
+    margin-top: -20px;
+}
+.show-all-events {
+    height: 100px;
+}
+.show-all-events button a {
+    margin: 0px;
+    text-decoration: none;
+    color: #034BFF;
+    font-weight: bold;
+    margin-left: -40px;
+}
+.show-all-events button{
+    background-color: white;
+    height: 40px;
+    margin: 0px;
+    width: 260px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.next-event h3 {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.the-next-events{
+    border-radius: 7px;
+    border: 1px solid #DDE4F0;
+    width: 330px;
+    margin-left: 50px;
+}
+.upper-banner img{
+    border-radius: 7px;
+    width: 100%;
+}
+.events-dates {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -76px;
+    margin-left: 17px;
+}
+.calender-date-day {
+    font-weight: 1000;
+    font-size: 30px;
+}
+.calender-date-month {
+    font-size: 13px;
+    font-weight: 350;
+    margin-top: 100px;
+}
+.the-next-events h2{
+    margin: 0;
+    font-weight: 520;
+    margin-left: 20px;
+    font-size: 21px;
+}
+.event-btn-savoir-plus {
+    border: 1px solid #034BFF;
+    margin-top: -10px;
+    height: 35px;
+    width: 85%;
+    border-radius: 5px;
+    margin-left:20px;
+    background-color: white;
+}
+.event-btn-savoir-plus a {
+    font-size: 14px;
+    text-decoration: none;
+    width: 90px;
+    color: #034BFF;
+    font-weight: bold;
+}
+.event-title {
+    margin-top: 5px;
+}
+.campus-name {
+    margin-top: -23px;
+    margin-left: 20px;
+}
+.etudiant {
+    display: flex;
+}
+.elements {
+    display: flex;
 }
