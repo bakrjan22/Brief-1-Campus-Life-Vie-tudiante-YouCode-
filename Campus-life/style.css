@@ -5,7 +5,8 @@
   font-style: normal;
 }
 body {
-  font-family: "Inter", sans-serif;
+    margin: 0;
+    font-family: "Inter", sans-serif;
 }
 header {
     display: flex;
@@ -339,7 +340,198 @@ ul {
 }
 .etudiant {
     display: flex;
+    background-color: #F4F7FC;
 }
 .elements {
     display: flex;
+}
+.elements img {
+    scale: 1;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.paragraph {
+    margin-left: 130px;
+}
+.etudiant {
+    margin-top: 20px;
+}
+.sepdown {
+    scale: 0.7;
+    width: 5px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #034BFF;
+}
+.etudi-info{
+    margin-left: 8px;
+}
+.paragraph h2 {
+    font-weight: 400;
+}
+.infogroupe{
+    margin-top: -30px;
+}
+.etudi-info h3 {
+    font-size: 19px;
+    font-weight: 500;
+}
+.etudi-info h4 {
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.skip {
+    margin-left: 370px;
+    font-size: 20px;
+}
+
+.footerend {
+    background-color: #101211;
+    height: 300px;
+}
+.footer-intern {
+    display: flex;
+}
+.Youcode_dec h2 {
+    color: white;
+    font-weight: 900;
+}
+.Youcode_dec h4 {
+    color: #B2BDB3;
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+.campus h2{
+    color: #C3F85C;
+    font-size: 11px;
+    font-weight: 400;
+}
+.exploremenu h3 {
+    margin: 15px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-left: 0px
+    
+}
+.sidefooter {
+    display: flex;
+    margin-left: 120px;
+}
+.campus {
+    margin-left: 120px;
+}
+.JoinAv {
+    display: flex;
+    justify-content: end;
+}
+.exploremenu button {
+    border: none;
+    background-color: #C3F85C;
+    width: 260px;
+    height: 63px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.exploremenu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    margin-left: 16px;
+    font-weight: 500;
+}
+.endend {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: 30px;
+}
+.endend span {
+    color: #B2BDB3;
+    font-family:"IBM Plex Mono", monospace;
+    font-size: 13px;
+    font-weight: 500;
+}
+.endend a {
+    color: #B2BDB3;
+    font-family:"IBM Plex Mono", monospace;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.politicsdiv {
+    margin-right: 70px;
+}
+.firstdaycontainer {
+    margin-top: 20px;
+    margin-left: 62px;
+    margin-right: 40px;
+    height: 360px;
+}
+.firstday {
+}
+.firstday h3 {
+    margin-top: 45px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #034BFF;
+    font-weight: 100;
+    font-size: 14px;
+}
+.section-sub-title {
+    margin-top: 45px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #034BFF;
+    font-weight: 100;
+    font-size: 14px;
+}
+.firstday h2 {
+    font-size: 45px;
+    font-weight: 1000;
+    margin-top: -7px;
+}
+.conseil {
+    border: 1px solid #DDE4F0;
+    border-radius: 10px;
+    width: 430px;
+    height: 205px;
+}
+.leconseil {
+    margin-left: 25px;
+}
+.conseil h5 {
+    color: #034BFF;
+    font-weight: 400;
+}
+.conseil p {
+    color: #47526A;
+    font-size: 20px;
+    font-weight: 100;
+}
+.conseil-container {
+    display: flex;
+    justify-content: space-between;
+}
+.places {
+    display: flex;
+    background-color: #F4F7FC;
+}
+.section-title {
+    margin-left: 62px;
+    margin-top: 40px;
+}
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 1000;
+    margin-top: -7px;
+}
+.section-title h4 {
+    margin-top: -30px;
+    color: #47526A;
+    font-weight: 100;
 }
